@@ -6,6 +6,7 @@ import { createStore } from 'redux';
 import routes from '../common/routes';
 import './index.less';
 
+
 const store = createStore(rootReducer)
 
 ReactDOM.render(
